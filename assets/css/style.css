@@ -6,15 +6,19 @@
 
 body {
     position: relative;
-    top: 55px;
+    top: 80px;
   }
 
 header {
     top: 0;
-    height: 50px;
+    height: 75px;
     width: 100%;
     position: fixed;
     border-bottom: 5px solid #deaf94;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 .ta {
@@ -36,12 +40,13 @@ header {
 .hdr-links {
     display: inline;
     padding: 15px;
-    line-height: 50px;
+    line-height: 75px;
 }
 
 a {
     color: #ece8e5;
     font-weight: bold;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
