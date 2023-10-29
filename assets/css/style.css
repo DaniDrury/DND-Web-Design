@@ -14,15 +14,26 @@ header {
     height: 50px;
     width: 100%;
     position: fixed;
-    background-color: rgb(66, 128, 66);
     border-bottom: 5px solid #deaf94;
 }
 
-ul {
-    text-align:center;
+.ta {
+    text-align: center;
 }
 
-.header-links {
+.bg-c {
+    background-color: #ece8e5;
+}
+
+.bg-g {
+    background-color: #428042 ;
+}
+
+.bg-dc {
+    background-color: #deaf94;
+}
+
+.hdr-links {
     display: inline;
     padding: 15px;
     line-height: 50px;
@@ -38,7 +49,16 @@ h1 {
     line-height: 100px;
 }
 
-.section-1 {
-    text-align: center;
-    background-color: #ece8e5;
+.contact-me {
+    border-top: 1px solid #da7f4a;
+}
+
+h2 {
+    line-height: 100px;
+}
+
+footer {
+    height: 30px;
+    line-height: 30px;
+    font-size: small;
 }
